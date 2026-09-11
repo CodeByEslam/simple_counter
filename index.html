@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>simple_counter</title>
+  </head>
+  <body>
+    <div class="d-flex flex-column p-5 w-100 align-items-center vh-100 gap-5">
+      <div class="d-flex gap-5">
+        <button
+          id="plusbtn"
+          class="btn btn-primary btn-md"
+          onclick="increment()"
+        >
+          +
+        </button>
+        <button
+          id="minusbtn"
+          class="btn btn-danger btn-md"
+          onclick="decrement()"
+        >
+          -
+        </button>
+      </div>
+      <div class="w-100 text-center">
+        <h1 id="result">0</h1>
+      </div>
+    </div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

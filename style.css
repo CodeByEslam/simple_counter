@@ -1,0 +1,23 @@
+body {
+  background-color: #dff6ff;
+}
+
+.d-flex.flex-column {
+  background-color: white;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+#result {
+  font-size: 70px;
+  font-weight: bold;
+  color: #2d6cdf;
+}
+
+#plusbtn,
+#minusbtn {
+  width: 80px;
+  font-size: 24px;
+}
